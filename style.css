@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1;
+  font-feature-settings: 'liga' 1, 'calt' 1, 'dlig', 'zero', 'ss01', 'ss02', 'ss07', 'ss08';
   /* fix for Chrome */
 }
 
@@ -80,4 +80,18 @@ h1 {
   font-weight: 700;
   font-size: 4rem;
   font-style: italic;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
 }
