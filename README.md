@@ -4,6 +4,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias minus cupiditate
 
 Impedit dignissimos quia illum dolores qui a ducimus nihil voluptates.
 
-## Font
+## Fonts
+
+### Inter
 
 https://rsms.me/inter/download/
+
+### Type scale
+
+Typography in Websites: Set up a TYPESCALE for Designing Websites!
+
+https://youtu.be/5FBFKaZzbps?si=Q66QQ29fhTKMvbke
+
+https://typescale.com/
