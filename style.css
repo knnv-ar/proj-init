@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1, 'dlig', 'zero', 'ss01', 'ss02', 'ss07', 'ss08';
+  font-feature-settings: 'liga' 1, 'calt' 1, 'dlig', 'zero', 'ss02', 'ss07', 'ss08', 'cv05';
   /* fix for Chrome */
 }
 
