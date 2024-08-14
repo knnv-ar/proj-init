@@ -4,6 +4,13 @@
   /* fix for Chrome */
 }
 
+@font-face {
+  font-family: 'Movement';
+  src: url('fonts/Movement.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 @supports (font-variation-settings: normal) {
   :root {
     font-family: InterVariable, sans-serif;
@@ -79,7 +86,8 @@ li {
 /* Minor third */
 
 h1 {
-  font-weight: 700;
+  font-family: 'Movement', sans-serif;
+  font-weight: 900;
   font-size: 2.986rem;
   /* font-style: italic; */
   line-height: 1.1;
@@ -126,4 +134,19 @@ p {
 .ft-caption {
   font-weight: 200;
   font-size: 0.694rem;
+}
+
+.movement-h1-custom {
+  font-family: 'Movement';
+  font-size: 2.986rem;
+  line-height: 1.1;
+
+  font-variation-settings: "wght" 100, "SPAC" 110;
+
+  transition:
+    font-variation-settings 500ms
+}
+
+.movement-h1-custom:hover {
+  font-variation-settings: "wght" 700, "SPAC" 120;
 }
