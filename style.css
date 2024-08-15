@@ -104,6 +104,7 @@ h2 {
 h3 {
   /* font-weight: 600; */
   font-size: 2.074rem;
+  margin-bottom: 1.6rem;
 }
 
 h4 {
@@ -140,7 +141,7 @@ p {
   --font-mov-h1-custom-wght: 100;
   --font-mov-h1-custom-spac: 110;
   font-family: 'Movement';
-  font-size: 2.986rem;
+  /* font-size: 2.986rem; */
   line-height: 1.1;
 
   font-variation-settings:
@@ -148,10 +149,43 @@ p {
     "SPAC" var(--font-mov-h1-custom-spac);
 
   transition:
-    font-variation-settings 500ms
+    font-variation-settings 500ms;
 }
 
 .movement-h1-custom:hover {
   --font-mov-h1-custom-wght: 700;
   --font-mov-h1-custom-spac: 120;
+}
+
+.movement-h1-poiesis {
+  /* --font-mov-h1-poiesis-wght: 400;
+  --font-mov-h1-poiesis-spac: 100; */
+  font-family: 'Movement';
+  font-size: 2.986rem;
+  line-height: 1.1;
+  text-align: center;
+
+  /* font-variation-settings:
+    "wght" var(--font-mov-h1-poiesis-wght),
+    "SPAC" var(--font-mov-h1-poiesis-spac); */
+
+  animation-name: poiesisAnimation;
+  animation-duration: 4000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes poiesisAnimation {
+  0% {
+    font-variation-settings:
+      "wght" 600,
+      "SPAC" 100;
+  }
+
+  100% {
+    font-variation-settings:
+      "wght" 600,
+      "SPAC" 120;
+  }
 }
