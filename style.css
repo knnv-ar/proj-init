@@ -137,16 +137,21 @@ p {
 }
 
 .movement-h1-custom {
+  --font-mov-h1-custom-wght: 100;
+  --font-mov-h1-custom-spac: 110;
   font-family: 'Movement';
   font-size: 2.986rem;
   line-height: 1.1;
 
-  font-variation-settings: "wght" 100, "SPAC" 110;
+  font-variation-settings:
+    "wght" var(--font-mov-h1-custom-wght),
+    "SPAC" var(--font-mov-h1-custom-spac);
 
   transition:
     font-variation-settings 500ms
 }
 
 .movement-h1-custom:hover {
-  font-variation-settings: "wght" 700, "SPAC" 120;
+  --font-mov-h1-custom-wght: 700;
+  --font-mov-h1-custom-spac: 120;
 }
