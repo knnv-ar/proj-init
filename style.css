@@ -189,3 +189,81 @@ p {
       "SPAC" 120;
   }
 }
+
+/* END OF FILE */
+
+h1 {
+  color: #222222;
+  font-size: 3rem;
+  /* 48px */
+  font-weight: 700;
+  margin-bottom: 1rem;
+  /* 16px */
+}
+
+h2 {
+  color: #2A2A2A;
+  font-size: 2rem;
+  /* 32px */
+  font-weight: 600;
+  margin-bottom: 0.875rem;
+  /* 14px */
+}
+
+h3 {
+  color: #333333;
+  font-size: 1.5rem;
+  /* 24px */
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  /* 12px */
+}
+
+h4 {
+  color: #4A4A4A;
+  font-size: 1.25rem;
+  /* 20px */
+  font-weight: 500;
+  margin-bottom: 0.625rem;
+  /* 10px */
+}
+
+h5 {
+  color: #5E5E5E;
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  /* 8px */
+}
+
+h6 {
+  color: #737373;
+  font-size: 1rem;
+  /* 16px */
+  font-weight: 400;
+  margin-bottom: 0.375rem;
+  /* 6px */
+}
+
+/* Párrafo */
+p {
+  color: #333333;
+  font-size: 1rem;
+  /* 16px */
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  /* 12px */
+}
+
+/* Captions */
+.caption {
+  color: #8A8A8A;
+  font-size: 0.875rem;
+  /* 14px */
+  font-weight: 300;
+  margin-top: 0.25rem;
+  /* 4px */
+  margin-bottom: 0.25rem;
+  /* 4px */
+}
