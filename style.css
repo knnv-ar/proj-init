@@ -83,6 +83,17 @@ li {
 
 /* FROM NOWON THE PARTICULAR STYLE RULES START HERE */
 
+
+.wrapper {
+  max-width: 1600px;
+  /* Ancho máximo del contenedor */
+  margin: 0 auto;
+  /* Centrar el contenedor */
+  padding: 1.5rem;
+  background-color: #F7F7F7;
+  height: auto;
+}
+
 /* Minor third */
 
 h1 {
